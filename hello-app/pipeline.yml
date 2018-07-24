@@ -1,0 +1,7 @@
+resources:
+- name: hello-app
+  type: git
+  source:
+    uri: https://github.com/osm8/hello-app.git
+    branch: master
+    private_key: ((private-repo-key))
